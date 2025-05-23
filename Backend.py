@@ -49,7 +49,5 @@ def describe_image(image_path):
     return(chat_response.choices[0].message.content)
 
     
-image_path = r"C:\Users\HP ZBOOK\Downloads\a35902a2ce0039f94b6fc5886b2db0cf.jpg"
-print(describe_image(image_path))
-    
+
     
